@@ -27,7 +27,7 @@ const LandingPage = ({ onNavigate }) => {
                         <button onClick={() => onNavigate('materi')} className="text-sm font-medium text-slate-400 hover:text-cyan-400 transition-colors">Materi</button>
                         <button onClick={() => onNavigate('simulasi')} className="text-sm font-medium text-slate-400 hover:text-cyan-400 transition-colors">Simulasi</button>
                         <div className="h-4 w-px bg-white/10"></div>
-                        <button className="text-sm font-bold text-white bg-white/10 hover:bg-white/20 px-5 py-2 rounded-full border border-white/5 transition-all">
+                        <button onClick={() => alert('Fitur Kelas akan segera hadir!')} className="text-sm font-bold text-white bg-white/10 hover:bg-white/20 px-5 py-2 rounded-full border border-white/5 transition-all">
                             Gabung Kelas
                         </button>
                     </div>
